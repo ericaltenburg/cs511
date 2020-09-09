@@ -21,14 +21,7 @@ Week 1 Lecture 2 - 9/2/20
 	thread.start() <- 2
 
 	We don't know which thread will run first, thread.start just spawns thread, scheduler will decide which runs first
--	Thread.start {
-		println(A);
-		println(B);
-	}
-	Thread.start {
-		println(C);
-		println(D);
-	}
+-	SEE l2ex1.groovy
 	- Any combination is possible so long as A comes before B and C comes before D because of context switching between threads and scheduling
 	- m are num instructions in first thread
 	  n are num instructions in second thread
@@ -37,5 +30,15 @@ Week 1 Lecture 2 - 9/2/20
 	  -----  =  
 	  m!n!       m
 	- Synchronization: making sure it prints ABCD (use semaphores)
+- Transition Systems
+	- (s, ->, I)
+		- S is a set of states
+		- -> C_ SxS is a transition relation
+		- I C_ S set of initial states
+	- See transition ex1, ex2, ex3, and ex4 on ipad l2
+	- for more code see l2ex3
+- Can now do exercise booklet
+- Quiz Friday
+
 
 
