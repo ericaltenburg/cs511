@@ -4,6 +4,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Semaphore;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Bakery implements Runnable {
     private static final int TOTAL_CUSTOMERS = 200;
@@ -58,8 +59,9 @@ public class Bakery implements Runnable {
         // TODO
         for(int i = 0; i < 200; i++){ 
             Customer c = new Customer(this);
+            List<BreadType> cart = c.getShoppingCart();
 
-            for(BreadType b : c.shoppingCart){ 
+            for(BreadType b : cart){ 
                 int n = 0;
                 if(b == BreadType.RYE){ 
                     n = 0;
@@ -78,7 +80,6 @@ public class Bakery implements Runnable {
                 takeBread(b);
                 shelf[n].release();
             }
-
             executor.execute(c);
         }
        executor.shutdown();

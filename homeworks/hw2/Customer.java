@@ -32,6 +32,10 @@ public class Customer implements Runnable {
         fillShoppingCart();
     }
 
+    public List<BreadType> getShoppingCart(){ 
+        return this.shoppingCart;
+    }
+
     /**
      * Run tasks for the customer
      */
