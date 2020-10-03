@@ -1,3 +1,12 @@
+/* 
+Author: Hamzah Nizami 
+Description: CS511 HW2 
+Pledge: I pledge my honor that I have abided by the Stevens Honor System.
+*/
+// import java.util.Arrays;
+// import java.util.List;
+// import java.util.Random;
+  
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
@@ -28,7 +37,7 @@ public class Customer implements Runnable {
      */
     public void run() {
         // TODO
-
+       System.out.println(this.toString());
     }
 
     /**

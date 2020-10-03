@@ -1,0 +1,200 @@
+Customer 725828534: shoppingCart=[RYE], shopTime=67, checkoutTime=107
+Customer 1650659898: shoppingCart=[RYE], shopTime=128, checkoutTime=101
+Customer 627642877: shoppingCart=[RYE, WONDER, WONDER], shopTime=149, checkoutTime=85
+Customer 696314059: shoppingCart=[SOURDOUGH, WONDER], shopTime=60, checkoutTime=72
+Customer 966451509: shoppingCart=[SOURDOUGH, WONDER], shopTime=134, checkoutTime=78
+Customer 797504606: shoppingCart=[SOURDOUGH, WONDER], shopTime=68, checkoutTime=80
+Customer 2076732037: shoppingCart=[RYE], shopTime=72, checkoutTime=64
+Customer 506746195: shoppingCart=[RYE, WONDER, SOURDOUGH], shopTime=164, checkoutTime=73
+Customer 345268945: shoppingCart=[WONDER, RYE, SOURDOUGH], shopTime=153, checkoutTime=51
+Customer 1232265395: shoppingCart=[WONDER, WONDER, RYE], shopTime=90, checkoutTime=96
+Customer 2061358692: shoppingCart=[WONDER, RYE, SOURDOUGH], shopTime=166, checkoutTime=66
+Customer 1381508108: shoppingCart=[RYE], shopTime=157, checkoutTime=77
+Customer 780840546: shoppingCart=[WONDER, SOURDOUGH, SOURDOUGH], shopTime=121, checkoutTime=71
+Customer 79664198: shoppingCart=[SOURDOUGH], shopTime=114, checkoutTime=74
+Customer 1334769247: shoppingCart=[RYE, RYE], shopTime=164, checkoutTime=66
+Customer 2009953555: shoppingCart=[WONDER, RYE, RYE], shopTime=64, checkoutTime=90
+Customer 1995458318: shoppingCart=[SOURDOUGH, SOURDOUGH, RYE], shopTime=82, checkoutTime=50
+Customer 202851174: shoppingCart=[SOURDOUGH, SOURDOUGH, SOURDOUGH], shopTime=132, checkoutTime=53
+Customer 732078265: shoppingCart=[SOURDOUGH, SOURDOUGH], shopTime=69, checkoutTime=104
+Customer 1998822591: shoppingCart=[SOURDOUGH], shopTime=139, checkoutTime=109
+Customer 425980110: shoppingCart=[WONDER, RYE, WONDER], shopTime=59, checkoutTime=71
+Customer 1129196317: shoppingCart=[RYE, SOURDOUGH, RYE], shopTime=78, checkoutTime=54
+Customer 730502308: shoppingCart=[RYE, WONDER, WONDER], shopTime=94, checkoutTime=56
+Customer 428395545: shoppingCart=[RYE, RYE, WONDER], shopTime=120, checkoutTime=88
+Customer 1416984510: shoppingCart=[RYE], shopTime=84, checkoutTime=70
+Customer 273890709: shoppingCart=[RYE, WONDER, SOURDOUGH], shopTime=58, checkoutTime=103
+Customer 418404121: shoppingCart=[WONDER, RYE, SOURDOUGH], shopTime=62, checkoutTime=92
+Customer 42617544: shoppingCart=[SOURDOUGH], shopTime=80, checkoutTime=88
+Customer 567795249: shoppingCart=[WONDER, RYE, WONDER], shopTime=82, checkoutTime=60
+Customer 1000139925: shoppingCart=[SOURDOUGH, WONDER, SOURDOUGH], shopTime=145, checkoutTime=85
+Customer 1374329314: shoppingCart=[RYE, SOURDOUGH, SOURDOUGH], shopTime=52, checkoutTime=68
+Customer 1013222045: shoppingCart=[SOURDOUGH, SOURDOUGH, RYE], shopTime=68, checkoutTime=82
+Customer 230677907: shoppingCart=[SOURDOUGH, RYE], shopTime=144, checkoutTime=62
+Customer 1847512462: shoppingCart=[RYE, WONDER], shopTime=58, checkoutTime=60
+Customer 166939988: shoppingCart=[SOURDOUGH, WONDER, SOURDOUGH], shopTime=104, checkoutTime=67
+Customer 1652365127: shoppingCart=[RYE], shopTime=58, checkoutTime=94
+Customer 1207959597: shoppingCart=[RYE, RYE], shopTime=50, checkoutTime=100
+Customer 20315662: shoppingCart=[WONDER, SOURDOUGH, SOURDOUGH], shopTime=151, checkoutTime=88
+Customer 1799665936: shoppingCart=[SOURDOUGH, SOURDOUGH, RYE], shopTime=53, checkoutTime=60
+Customer 79380705: shoppingCart=[WONDER, SOURDOUGH], shopTime=169, checkoutTime=62
+Customer 1675705343: shoppingCart=[RYE, SOURDOUGH], shopTime=68, checkoutTime=102
+Customer 1715342245: shoppingCart=[RYE], shopTime=136, checkoutTime=106
+Customer 1668451391: shoppingCart=[SOURDOUGH], shopTime=64, checkoutTime=81
+Customer 1818927620: shoppingCart=[SOURDOUGH, SOURDOUGH], shopTime=144, checkoutTime=61
+Customer 1139308333: shoppingCart=[WONDER], shopTime=148, checkoutTime=55
+Customer 548866276: shoppingCart=[RYE, WONDER], shopTime=130, checkoutTime=61
+Customer 2034052346: shoppingCart=[SOURDOUGH, WONDER, SOURDOUGH], shopTime=124, checkoutTime=90
+Customer 1080583929: shoppingCart=[SOURDOUGH, WONDER], shopTime=135, checkoutTime=106
+Customer 636195742: shoppingCart=[RYE, RYE, RYE], shopTime=86, checkoutTime=89
+Customer 280481333: shoppingCart=[SOURDOUGH, SOURDOUGH, WONDER], shopTime=169, checkoutTime=108
+Customer 1822744582: shoppingCart=[SOURDOUGH, SOURDOUGH], shopTime=117, checkoutTime=89
+Customer 724334931: shoppingCart=[WONDER, SOURDOUGH, WONDER], shopTime=71, checkoutTime=96
+Customer 558829535: shoppingCart=[SOURDOUGH], shopTime=120, checkoutTime=58
+Customer 565913798: shoppingCart=[SOURDOUGH, WONDER, WONDER], shopTime=76, checkoutTime=109
+Customer 284403941: shoppingCart=[SOURDOUGH, SOURDOUGH, WONDER], shopTime=144, checkoutTime=106
+Customer 441687603: shoppingCart=[SOURDOUGH, SOURDOUGH, SOURDOUGH], shopTime=62, checkoutTime=108
+Customer 1203046381: shoppingCart=[SOURDOUGH, SOURDOUGH], shopTime=52, checkoutTime=66
+Customer 628137774: shoppingCart=[WONDER], shopTime=123, checkoutTime=52
+Customer 541939139: shoppingCart=[RYE, RYE, SOURDOUGH], shopTime=84, checkoutTime=58
+Customer 611501330: shoppingCart=[WONDER, RYE], shopTime=76, checkoutTime=52
+Customer 1634754552: shoppingCart=[WONDER, SOURDOUGH, SOURDOUGH], shopTime=125, checkoutTime=57
+Customer 2030736794: shoppingCart=[WONDER], shopTime=76, checkoutTime=109
+Customer 2016913312: shoppingCart=[RYE, RYE], shopTime=127, checkoutTime=83
+Customer 2080910462: shoppingCart=[SOURDOUGH, SOURDOUGH], shopTime=89, checkoutTime=103
+Customer 2045013035: shoppingCart=[SOURDOUGH], shopTime=133, checkoutTime=71
+Customer 396631442: shoppingCart=[SOURDOUGH], shopTime=162, checkoutTime=62
+Customer 328965054: shoppingCart=[RYE, WONDER], shopTime=60, checkoutTime=84
+Customer 1452873641: shoppingCart=[SOURDOUGH], shopTime=72, checkoutTime=64
+Customer 1358592052: shoppingCart=[RYE, RYE], shopTime=111, checkoutTime=87
+Customer 1736812340: shoppingCart=[SOURDOUGH, WONDER, SOURDOUGH], shopTime=102, checkoutTime=93
+Customer 671913489: shoppingCart=[SOURDOUGH, SOURDOUGH], shopTime=79, checkoutTime=99
+Customer 917956838: shoppingCart=[RYE, SOURDOUGH, WONDER], shopTime=167, checkoutTime=73
+Customer 898506204: shoppingCart=[RYE, SOURDOUGH], shopTime=165, checkoutTime=68
+Customer 2147004510: shoppingCart=[WONDER, RYE, WONDER], shopTime=159, checkoutTime=61
+Customer 856169902: shoppingCart=[SOURDOUGH, RYE, RYE], shopTime=58, checkoutTime=93
+Customer 1963957132: shoppingCart=[WONDER, RYE], shopTime=55, checkoutTime=104
+Customer 1300880644: shoppingCart=[SOURDOUGH, SOURDOUGH, RYE], shopTime=92, checkoutTime=50
+Customer 1236680813: shoppingCart=[RYE], shopTime=156, checkoutTime=71
+Customer 213178175: shoppingCart=[RYE], shopTime=105, checkoutTime=59
+Customer 1755019594: shoppingCart=[RYE, WONDER], shopTime=64, checkoutTime=103
+Customer 513065455: shoppingCart=[WONDER, RYE, SOURDOUGH], shopTime=133, checkoutTime=107
+Customer 765061693: shoppingCart=[RYE, SOURDOUGH], shopTime=125, checkoutTime=54
+Customer 372746871: shoppingCart=[SOURDOUGH, WONDER], shopTime=105, checkoutTime=98
+Customer 732887840: shoppingCart=[SOURDOUGH], shopTime=74, checkoutTime=81
+Customer 789587067: shoppingCart=[WONDER], shopTime=62, checkoutTime=99
+Customer 510665299: shoppingCart=[WONDER, WONDER], shopTime=81, checkoutTime=53
+Customer 441427269: shoppingCart=[SOURDOUGH, WONDER, SOURDOUGH], shopTime=165, checkoutTime=93
+Customer 1598892136: shoppingCart=[RYE, RYE], shopTime=130, checkoutTime=103
+Customer 1906672594: shoppingCart=[WONDER], shopTime=62, checkoutTime=50
+Customer 849568609: shoppingCart=[SOURDOUGH], shopTime=147, checkoutTime=75
+Customer 916251117: shoppingCart=[RYE], shopTime=78, checkoutTime=87
+Customer 1596816815: shoppingCart=[RYE, RYE, SOURDOUGH], shopTime=149, checkoutTime=50
+Customer 1527968402: shoppingCart=[SOURDOUGH, RYE], shopTime=109, checkoutTime=100
+Customer 724546881: shoppingCart=[RYE, RYE, RYE], shopTime=105, checkoutTime=61
+Customer 895161750: shoppingCart=[WONDER, SOURDOUGH, RYE], shopTime=73, checkoutTime=61
+Customer 1187506013: shoppingCart=[WONDER], shopTime=146, checkoutTime=68
+Customer 1831262707: shoppingCart=[SOURDOUGH, SOURDOUGH], shopTime=81, checkoutTime=61
+Customer 798063245: shoppingCart=[RYE, SOURDOUGH], shopTime=50, checkoutTime=65
+Customer 779149954: shoppingCart=[WONDER, RYE], shopTime=143, checkoutTime=98
+Customer 1320128644: shoppingCart=[WONDER, SOURDOUGH, RYE], shopTime=153, checkoutTime=91
+Customer 658965387: shoppingCart=[WONDER, SOURDOUGH, WONDER], shopTime=109, checkoutTime=60
+Customer 595100603: shoppingCart=[RYE, WONDER], shopTime=72, checkoutTime=63
+Customer 1719273904: shoppingCart=[SOURDOUGH], shopTime=155, checkoutTime=101
+Customer 1209168644: shoppingCart=[SOURDOUGH, RYE, WONDER], shopTime=151, checkoutTime=71
+Customer 1465281238: shoppingCart=[SOURDOUGH, SOURDOUGH, RYE], shopTime=108, checkoutTime=62
+Customer 789838062: shoppingCart=[RYE, SOURDOUGH], shopTime=161, checkoutTime=54
+Customer 1779528552: shoppingCart=[WONDER, RYE, WONDER], shopTime=64, checkoutTime=68
+Customer 206419177: shoppingCart=[WONDER, RYE], shopTime=63, checkoutTime=88
+Customer 709845908: shoppingCart=[WONDER, RYE, RYE], shopTime=131, checkoutTime=80
+Customer 1460785014: shoppingCart=[SOURDOUGH, RYE, WONDER], shopTime=74, checkoutTime=66
+Customer 447436517: shoppingCart=[SOURDOUGH, RYE, SOURDOUGH], shopTime=141, checkoutTime=70
+Customer 1521648448: shoppingCart=[WONDER, RYE, RYE], shopTime=153, checkoutTime=101
+Customer 1049629559: shoppingCart=[SOURDOUGH, WONDER], shopTime=70, checkoutTime=95
+Customer 391065944: shoppingCart=[RYE, WONDER], shopTime=111, checkoutTime=90
+Customer 1030920284: shoppingCart=[WONDER, SOURDOUGH], shopTime=68, checkoutTime=57
+Customer 625835941: shoppingCart=[WONDER, SOURDOUGH, WONDER], shopTime=89, checkoutTime=88
+Customer 1898971637: shoppingCart=[WONDER, SOURDOUGH, RYE], shopTime=152, checkoutTime=50
+Customer 855126769: shoppingCart=[RYE], shopTime=134, checkoutTime=60
+Customer 875729335: shoppingCart=[RYE, RYE, SOURDOUGH], shopTime=160, checkoutTime=82
+Customer 211180022: shoppingCart=[RYE, WONDER, SOURDOUGH], shopTime=73, checkoutTime=57
+Customer 2002626959: shoppingCart=[WONDER, WONDER, WONDER], shopTime=112, checkoutTime=60
+Customer 2111567823: shoppingCart=[SOURDOUGH, SOURDOUGH], shopTime=60, checkoutTime=91
+Customer 627395517: shoppingCart=[WONDER], shopTime=153, checkoutTime=79
+Customer 957001115: shoppingCart=[WONDER, WONDER, RYE], shopTime=57, checkoutTime=87
+Customer 47234196: shoppingCart=[SOURDOUGH, SOURDOUGH, WONDER], shopTime=93, checkoutTime=100
+Customer 2100633187: shoppingCart=[WONDER, WONDER, RYE], shopTime=64, checkoutTime=56
+Customer 1133153219: shoppingCart=[SOURDOUGH], shopTime=84, checkoutTime=71
+Customer 452068362: shoppingCart=[RYE], shopTime=110, checkoutTime=94
+Customer 1095303646: shoppingCart=[RYE, SOURDOUGH], shopTime=79, checkoutTime=99
+Customer 1618085348: shoppingCart=[WONDER, WONDER, RYE], shopTime=157, checkoutTime=82
+Customer 175667873: shoppingCart=[SOURDOUGH, SOURDOUGH], shopTime=123, checkoutTime=57
+Customer 1553977399: shoppingCart=[WONDER, RYE], shopTime=107, checkoutTime=53
+Customer 1486901116: shoppingCart=[SOURDOUGH, WONDER, SOURDOUGH], shopTime=54, checkoutTime=66
+Customer 497211916: shoppingCart=[WONDER, WONDER, WONDER], shopTime=86, checkoutTime=91
+Customer 239728112: shoppingCart=[RYE, WONDER], shopTime=167, checkoutTime=88
+Customer 1947875151: shoppingCart=[SOURDOUGH], shopTime=121, checkoutTime=64
+Customer 510396833: shoppingCart=[RYE, WONDER, RYE], shopTime=68, checkoutTime=58
+Customer 1533973512: shoppingCart=[RYE, SOURDOUGH, WONDER], shopTime=156, checkoutTime=85
+Customer 348929571: shoppingCart=[RYE, SOURDOUGH], shopTime=99, checkoutTime=69
+Customer 1689891477: shoppingCart=[WONDER], shopTime=82, checkoutTime=51
+Customer 1372496606: shoppingCart=[WONDER, SOURDOUGH], shopTime=93, checkoutTime=88
+Customer 1817962334: shoppingCart=[WONDER, SOURDOUGH, WONDER], shopTime=67, checkoutTime=67
+Customer 1881521428: shoppingCart=[RYE, RYE], shopTime=82, checkoutTime=67
+Customer 745898598: shoppingCart=[SOURDOUGH, WONDER], shopTime=65, checkoutTime=71
+Customer 239599414: shoppingCart=[WONDER, WONDER], shopTime=59, checkoutTime=78
+Customer 137377712: shoppingCart=[SOURDOUGH, RYE, SOURDOUGH], shopTime=94, checkoutTime=79
+Customer 1165401391: shoppingCart=[RYE, RYE], shopTime=104, checkoutTime=50
+Customer 1356577242: shoppingCart=[SOURDOUGH, RYE, SOURDOUGH], shopTime=112, checkoutTime=83
+Customer 109579734: shoppingCart=[RYE, RYE], shopTime=76, checkoutTime=94
+Customer 1655946374: shoppingCart=[SOURDOUGH, WONDER, RYE], shopTime=160, checkoutTime=73
+Customer 943169441: shoppingCart=[SOURDOUGH, RYE, RYE], shopTime=90, checkoutTime=109
+Customer 116336662: shoppingCart=[SOURDOUGH, RYE], shopTime=158, checkoutTime=107
+Customer 1303795075: shoppingCart=[WONDER], shopTime=166, checkoutTime=72
+Customer 559598537: shoppingCart=[WONDER], shopTime=128, checkoutTime=54
+Customer 953771536: shoppingCart=[RYE, RYE], shopTime=69, checkoutTime=65
+Customer 1302171002: shoppingCart=[SOURDOUGH, SOURDOUGH, WONDER], shopTime=107, checkoutTime=70
+Customer 97280019: shoppingCart=[SOURDOUGH, SOURDOUGH, SOURDOUGH], shopTime=136, checkoutTime=56
+Customer 561184724: shoppingCart=[RYE, WONDER], shopTime=157, checkoutTime=57
+Customer 1186726583: shoppingCart=[RYE], shopTime=125, checkoutTime=87
+Customer 326149993: shoppingCart=[WONDER, SOURDOUGH], shopTime=137, checkoutTime=54
+Customer 1586306254: shoppingCart=[SOURDOUGH, WONDER], shopTime=60, checkoutTime=70
+Customer 1604963284: shoppingCart=[WONDER], shopTime=52, checkoutTime=59
+Customer 478060866: shoppingCart=[WONDER], shopTime=74, checkoutTime=92
+Customer 1867376825: shoppingCart=[WONDER], shopTime=156, checkoutTime=80
+Customer 141697464: shoppingCart=[WONDER, WONDER, RYE], shopTime=133, checkoutTime=74
+Customer 329214679: shoppingCart=[SOURDOUGH, WONDER], shopTime=63, checkoutTime=60
+Customer 819220188: shoppingCart=[SOURDOUGH, SOURDOUGH, RYE], shopTime=159, checkoutTime=66
+Customer 928847990: shoppingCart=[RYE, SOURDOUGH, RYE], shopTime=149, checkoutTime=89
+Customer 1250954633: shoppingCart=[SOURDOUGH, SOURDOUGH, WONDER], shopTime=56, checkoutTime=106
+Customer 2012925357: shoppingCart=[WONDER, RYE], shopTime=143, checkoutTime=103
+Customer 1788080411: shoppingCart=[WONDER], shopTime=123, checkoutTime=66
+Customer 1294962976: shoppingCart=[WONDER, WONDER], shopTime=139, checkoutTime=92
+Customer 1655521785: shoppingCart=[RYE], shopTime=161, checkoutTime=86
+Customer 1763266703: shoppingCart=[RYE], shopTime=162, checkoutTime=75
+Customer 1840610849: shoppingCart=[SOURDOUGH], shopTime=156, checkoutTime=96
+Customer 1123576669: shoppingCart=[WONDER, RYE], shopTime=61, checkoutTime=99
+Customer 1761208594: shoppingCart=[SOURDOUGH, RYE, WONDER], shopTime=130, checkoutTime=76
+Customer 1703102984: shoppingCart=[SOURDOUGH], shopTime=92, checkoutTime=78
+Customer 175943174: shoppingCart=[WONDER], shopTime=70, checkoutTime=63
+Customer 267522136: shoppingCart=[RYE, WONDER], shopTime=72, checkoutTime=67
+Customer 828671973: shoppingCart=[SOURDOUGH], shopTime=148, checkoutTime=56
+Customer 1848454720: shoppingCart=[SOURDOUGH, SOURDOUGH, RYE], shopTime=65, checkoutTime=92
+Customer 1824187768: shoppingCart=[WONDER], shopTime=107, checkoutTime=60
+Customer 120889882: shoppingCart=[SOURDOUGH, RYE], shopTime=108, checkoutTime=96
+Customer 504395668: shoppingCart=[RYE, SOURDOUGH, RYE], shopTime=160, checkoutTime=73
+Customer 302529641: shoppingCart=[SOURDOUGH, RYE, RYE], shopTime=148, checkoutTime=87
+Customer 1624849981: shoppingCart=[SOURDOUGH, SOURDOUGH], shopTime=118, checkoutTime=109
+Customer 1939761498: shoppingCart=[WONDER], shopTime=89, checkoutTime=65
+Customer 58208852: shoppingCart=[RYE, WONDER, RYE], shopTime=76, checkoutTime=54
+Customer 1851282703: shoppingCart=[SOURDOUGH, WONDER], shopTime=74, checkoutTime=54
+Customer 23044279: shoppingCart=[WONDER, WONDER, WONDER], shopTime=98, checkoutTime=68
+Customer 1486947020: shoppingCart=[RYE, WONDER], shopTime=126, checkoutTime=64
+Customer 7605221: shoppingCart=[WONDER], shopTime=149, checkoutTime=91
+Customer 1373167774: shoppingCart=[SOURDOUGH, WONDER, SOURDOUGH], shopTime=95, checkoutTime=91
+Customer 1262842010: shoppingCart=[SOURDOUGH, WONDER, WONDER], shopTime=100, checkoutTime=87
+Customer 1987375931: shoppingCart=[RYE, WONDER, SOURDOUGH], shopTime=57, checkoutTime=50
+Customer 891764084: shoppingCart=[RYE], shopTime=120, checkoutTime=92
+Customer 1795116768: shoppingCart=[RYE, WONDER], shopTime=97, checkoutTime=102
+Customer 1844243321: shoppingCart=[WONDER, SOURDOUGH], shopTime=133, checkoutTime=90
+Customer 1440088903: shoppingCart=[RYE], shopTime=157, checkoutTime=102

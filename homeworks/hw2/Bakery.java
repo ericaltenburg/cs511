@@ -3,6 +3,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Semaphore;
+import java.util.ArrayList;
 
 public class Bakery implements Runnable {
     private static final int TOTAL_CUSTOMERS = 200;
@@ -13,6 +14,7 @@ public class Bakery implements Runnable {
     private float sales = 0;
 
     // TODO
+    private Semaphore[] shelf = new Semaphore[] {new Semaphore(1), new Semaphore(1), new Semaphore(1)}; // index 0: takeRye, index 1: takeSourDough, index 2: takeWonder 
 
     /**
      * Remove a loaf from the available breads and restock if necessary
@@ -40,9 +42,6 @@ public class Bakery implements Runnable {
         sales += value;
     }
 
-    public boolean isValid() {
-    	return availableBread == null;
-    }
 
     /**
      * Run all customers in a fixed thread pool
@@ -54,10 +53,34 @@ public class Bakery implements Runnable {
         availableBread.put(BreadType.WONDER, FULL_BREAD);
 
 
-		Customer customer = new Customer(this);
-        // TODO
+        ArrayList<Customer> customerList = new ArrayList<Customer>();
         executor = Executors.newFixedThreadPool(50);
-        executor.execute(customer);
-        executor.shutdown();
+        // TODO
+        for(int i = 0; i < 200; i++){ 
+            Customer c = new Customer(this);
+
+            for(BreadType b : c.shoppingCart){ 
+                int n = 0;
+                if(b == BreadType.RYE){ 
+                    n = 0;
+                } 
+                if(b == BreadType.SOURDOUGH){ 
+                    n = 1;
+                }
+                if(b == BreadType.WONDER){ 
+                    n = 2;
+                }
+                try{ 
+                    shelf[n].acquire();
+                } catch (InterruptedException ie){ 
+                    System.out.println(ie);
+                }
+                takeBread(b);
+                shelf[n].release();
+            }
+
+            executor.execute(c);
+        }
+       executor.shutdown();
     }
 }
