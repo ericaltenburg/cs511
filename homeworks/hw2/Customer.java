@@ -26,14 +26,15 @@ public class Customer implements Runnable {
         // TODO
         this.rnd = new Random();
         this.shoppingCart = new ArrayList<BreadType>();
-        this.shopTime = (int)(Math.random() * 120 + (50));
-        this.checkoutTime = (int)(Math.random() * 60 + (50));
+        this.shopTime = (int)(Math.random() * (100 - 50 + 1) + 50);
+        this.checkoutTime = (int)(Math.random() * (100 - 50 + 1) + 50);
         this.bakery = bakery;
+        fillShoppingCart();
     }
 
-    public List<BreadType> getShoppingCart(){ 
-        return this.shoppingCart;
-    }
+    // public List<BreadType> getShoppingCart(){ 
+    //     return this.shoppingCart;
+    // }
 
     /**
      * Run tasks for the customer
@@ -41,32 +42,32 @@ public class Customer implements Runnable {
     public void run() {
         // TODO
         try {
-			fillShoppingCart();
+        	System.out.println("Customer: " + hashCode() + " decided to say, \"lets get this bread\"");
 			for (BreadType b : shoppingCart) {
-				// int n;
-	   //          if(b == BreadType.RYE){ 
-	   //              n = 0;
-	   //          } else if(b == BreadType.SOURDOUGH){ 
-	   //              n = 1;
-	   //          } else { 
-	   //              n = 2;
-	   //          }
-	            // bakery.shelf[n].acquire();
-	            bakery.shelf.get(b).acquire();
+				int n;
+	            if(b == BreadType.RYE){ 
+	                n = 0;
+	            } else if(b == BreadType.SOURDOUGH){ 
+	                n = 1;
+	            } else { 
+	                n = 2;
+	            }
+	            bakery.shelf[n].acquire();
 	            bakery.takeBread(b);
+	            System.out.println("Customer " + hashCode() + ": taking " + b);
 	            Thread.sleep(shopTime);
-	            // bakery.shelf[n].release();
-	            bakery.shelf.get(b).release();
+	            bakery.shelf[n].release();
 			}
+			
+			
 
             bakery.saleProcess.acquire();
-            bakery.registerProcess.acquire();
-            bakery.addSales(this.getItemsValue());
+            System.out.println("Customer " + hashCode() + ": amount to buy " + getItemsValue());
+            bakery.addSales(getItemsValue());
             Thread.sleep(checkoutTime);
             bakery.saleProcess.release();
-            bakery.registerProcess.release();
 
-            System.out.println(this.toString());
+            System.out.println(toString());
         } catch (InterruptedException ie) {
         	System.out.println(ie);
         }

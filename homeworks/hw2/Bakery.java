@@ -15,10 +15,9 @@ public class Bakery implements Runnable {
     private float sales = 0;
 
     // TODO
-    // public Semaphore[] shelf = new Semaphore[] {new Semaphore(1), new Semaphore(1), new Semaphore(1)}; // index 0: takeRye, index 1: takeSourDough, index 2: takeWonder 
-    public Map<BreadType, Semaphore> shelf;
+    public Semaphore[] shelf = new Semaphore[] {new Semaphore(1), new Semaphore(1), new Semaphore(1)}; // index 0: takeRye, index 1: takeSourDough, index 2: takeWonder 
     public Semaphore saleProcess = new Semaphore(4);
-    public Semaphore registerProcess = new Semaphore(4);
+    public Semaphore registerProcess = new Semaphore(1);
 
 
     // public void setSales(float s){ 
@@ -31,6 +30,7 @@ public class Bakery implements Runnable {
         int breadLeft = availableBread.get(bread);
         if (breadLeft > 0) {
             availableBread.put(bread, breadLeft - 1);
+            // System.out.println("There are " + breadLeft + " left for " + bread.toString());
         } else {
             System.out.println("No " + bread.toString() + " bread left! Restocking...");
             // restock by preventing access to the bread stand for some time
@@ -48,12 +48,13 @@ public class Bakery implements Runnable {
      */
     public void addSales(float value) {
         try{ 
-            saleProcess.acquire();
+            registerProcess.acquire();
+            sales += value;
+        	registerProcess.release();
         } catch(InterruptedException ie){ 
             System.out.println(ie);
         }
-        sales += value;
-        saleProcess.release();
+        
     }
 
 
@@ -66,16 +67,18 @@ public class Bakery implements Runnable {
         availableBread.put(BreadType.SOURDOUGH, FULL_BREAD);
         availableBread.put(BreadType.WONDER, FULL_BREAD);
 
-        shelf = new ConcurrentHashMap <BreadType, Semaphore>();
-        shelf.put(BreadType.RYE, new Semaphore(1));
-        shelf.put(BreadType.SOURDOUGH, new Semaphore(1));
-        shelf.put(BreadType.WONDER, new Semaphore(1));
-
-        executor = Executors.newFixedThreadPool(50);
+        executor = Executors.newFixedThreadPool(ALLOWED_CUSTOMERS);
         // TODO
         for(int i = 0; i < TOTAL_CUSTOMERS; i++){
-        	Customer c = new Customer(this);
-            executor.execute(c);
+        	// try {
+        		
+        		Customer c = new Customer(this);
+        		// registerProcess.acquire();
+            	executor.execute(c);
+            	// registerProcess.release();
+        	// } catch (InterruptedException ie) {
+        		// System.out.println(ie);
+        	// }
         }
        executor.shutdown();
     }
