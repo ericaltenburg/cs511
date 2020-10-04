@@ -1,16 +1,14 @@
-/* 
-Author: Hamzah Nizami 
-Description: CS511 HW2 
-Pledge: I pledge my honor that I have abided by the Stevens Honor System.
-*/
-// import java.util.Arrays;
-// import java.util.List;
-// import java.util.Random;
+/** 
+ * Author: Eric Altenburg and Sarvani Patel
+ * Date: 10/4/20
+ * Pledge: I pledge my honor that I have abided by the Stevens Honor System.
+ **/
   
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 import java.util.ArrayList;
+import java.text.DecimalFormat;
 
 public class Customer implements Runnable {
     private Bakery bakery;
@@ -18,6 +16,7 @@ public class Customer implements Runnable {
     private List<BreadType> shoppingCart;
     private int shopTime;
     private int checkoutTime;
+    private DecimalFormat df;
 
     /**
      * Initialize a customer object and randomize its shopping cart
@@ -29,12 +28,9 @@ public class Customer implements Runnable {
         this.shopTime = (int)(Math.random() * (100 - 50 + 1) + 50);
         this.checkoutTime = (int)(Math.random() * (100 - 50 + 1) + 50);
         this.bakery = bakery;
+        this.df = new DecimalFormat("#.00");
         fillShoppingCart();
     }
-
-    // public List<BreadType> getShoppingCart(){ 
-    //     return this.shoppingCart;
-    // }
 
     /**
      * Run tasks for the customer
@@ -62,12 +58,13 @@ public class Customer implements Runnable {
 			
 
             bakery.saleProcess.acquire();
-            System.out.println("Customer " + hashCode() + ": amount to buy " + getItemsValue());
+            System.out.println("Customer " + hashCode() + ": amount to buy $" + df.format(getItemsValue()));
             bakery.addSales(getItemsValue());
             Thread.sleep(checkoutTime);
             bakery.saleProcess.release();
 
             System.out.println(toString());
+            bakery.permToPrint.release();
         } catch (InterruptedException ie) {
         	System.out.println(ie);
         }
