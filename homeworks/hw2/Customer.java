@@ -41,6 +41,7 @@ public class Customer implements Runnable {
      */
     public void run() {
         // TODO
+       this.bakery.addSales(getItemsValue());
        System.out.println(this.toString());
     }
 

@@ -1,0 +1,219 @@
+Customer 1381508108: shoppingCart=[SOURDOUGH, WONDER], shopTime=69, checkoutTime=51
+Customer 780840546: shoppingCart=[RYE, WONDER], shopTime=144, checkoutTime=60
+Customer 1232265395: shoppingCart=[RYE, SOURDOUGH], shopTime=112, checkoutTime=62
+Customer 2061358692: shoppingCart=[WONDER, RYE], shopTime=157, checkoutTime=90
+Customer 202851174: shoppingCart=[WONDER, WONDER], shopTime=165, checkoutTime=87
+Customer 1995458318: shoppingCart=[SOURDOUGH, RYE, RYE], shopTime=118, checkoutTime=100
+Customer 1000139925: shoppingCart=[RYE, SOURDOUGH], shopTime=146, checkoutTime=78
+Customer 230677907: shoppingCart=[WONDER, RYE, RYE], shopTime=166, checkoutTime=65
+Customer 1847512462: shoppingCart=[RYE], shopTime=58, checkoutTime=79
+Customer 166939988: shoppingCart=[WONDER, SOURDOUGH], shopTime=143, checkoutTime=59
+Customer 1652365127: shoppingCart=[SOURDOUGH, RYE], shopTime=133, checkoutTime=105
+Customer 1207959597: shoppingCart=[WONDER, RYE], shopTime=163, checkoutTime=61
+Customer 20315662: shoppingCart=[WONDER], shopTime=130, checkoutTime=97
+Customer 1799665936: shoppingCart=[WONDER], shopTime=133, checkoutTime=58
+Customer 79380705: shoppingCart=[SOURDOUGH, RYE], shopTime=83, checkoutTime=98
+Customer 1675705343: shoppingCart=[RYE, SOURDOUGH, RYE], shopTime=88, checkoutTime=104
+Customer 1668451391: shoppingCart=[RYE, SOURDOUGH, RYE], shopTime=54, checkoutTime=86
+Customer 1715342245: shoppingCart=[WONDER], shopTime=96, checkoutTime=79
+Customer 1139308333: shoppingCart=[WONDER], shopTime=69, checkoutTime=104
+Customer 2034052346: shoppingCart=[WONDER], shopTime=94, checkoutTime=71
+Customer 548866276: shoppingCart=[RYE, WONDER], shopTime=163, checkoutTime=50
+Customer 1080583929: shoppingCart=[RYE, SOURDOUGH, WONDER], shopTime=56, checkoutTime=61
+No RYE bread left! Restocking...
+Customer 636195742: shoppingCart=[RYE, RYE, RYE], shopTime=69, checkoutTime=54
+Customer 1148265318: shoppingCart=[WONDER, WONDER], shopTime=98, checkoutTime=85
+Customer 413527721: shoppingCart=[WONDER], shopTime=90, checkoutTime=92
+Customer 1033618583: shoppingCart=[RYE, WONDER, RYE], shopTime=129, checkoutTime=82
+No WONDER bread left! Restocking...
+Customer 1934735317: shoppingCart=[WONDER, SOURDOUGH], shopTime=114, checkoutTime=97
+Customer 1711657736: shoppingCart=[WONDER, RYE, SOURDOUGH], shopTime=52, checkoutTime=58
+Customer 1747357820: shoppingCart=[WONDER, RYE, SOURDOUGH], shopTime=67, checkoutTime=75
+Customer 550896993: shoppingCart=[RYE], shopTime=56, checkoutTime=80
+Customer 1804431900: shoppingCart=[RYE, RYE, SOURDOUGH], shopTime=78, checkoutTime=58
+Customer 1251387847: shoppingCart=[WONDER], shopTime=138, checkoutTime=104
+Customer 94165517: shoppingCart=[SOURDOUGH, WONDER], shopTime=168, checkoutTime=101
+Customer 303479031: shoppingCart=[WONDER], shopTime=53, checkoutTime=62
+Customer 1326320603: shoppingCart=[SOURDOUGH, RYE, RYE], shopTime=90, checkoutTime=90
+Customer 947156394: shoppingCart=[WONDER, SOURDOUGH, RYE], shopTime=104, checkoutTime=67
+Customer 1728013611: shoppingCart=[WONDER, RYE], shopTime=89, checkoutTime=89
+Customer 928972079: shoppingCart=[WONDER], shopTime=86, checkoutTime=52
+Customer 2099503769: shoppingCart=[WONDER, RYE, SOURDOUGH], shopTime=96, checkoutTime=83
+Customer 1928647946: shoppingCart=[RYE, WONDER], shopTime=134, checkoutTime=62
+Customer 741397220: shoppingCart=[RYE], shopTime=105, checkoutTime=94
+Customer 191965183: shoppingCart=[RYE], shopTime=79, checkoutTime=86
+Customer 1682032146: shoppingCart=[SOURDOUGH, RYE], shopTime=71, checkoutTime=102
+No SOURDOUGH bread left! Restocking...
+Customer 1741843086: shoppingCart=[SOURDOUGH], shopTime=124, checkoutTime=77
+Customer 423602520: shoppingCart=[SOURDOUGH, RYE, RYE], shopTime=87, checkoutTime=87
+Customer 983724591: shoppingCart=[SOURDOUGH, SOURDOUGH], shopTime=139, checkoutTime=76
+No RYE bread left! Restocking...
+Customer 2046024106: shoppingCart=[RYE, WONDER], shopTime=68, checkoutTime=52
+Customer 526350619: shoppingCart=[RYE, WONDER], shopTime=132, checkoutTime=77
+Customer 54247063: shoppingCart=[WONDER], shopTime=51, checkoutTime=59
+Customer 383060070: shoppingCart=[WONDER, RYE, SOURDOUGH], shopTime=73, checkoutTime=86
+Customer 1486901116: shoppingCart=[RYE, WONDER], shopTime=138, checkoutTime=57
+Customer 497211916: shoppingCart=[SOURDOUGH, SOURDOUGH, RYE], shopTime=92, checkoutTime=78
+Customer 239728112: shoppingCart=[SOURDOUGH], shopTime=152, checkoutTime=69
+Customer 745898598: shoppingCart=[RYE], shopTime=78, checkoutTime=97
+Customer 1987375931: shoppingCart=[WONDER], shopTime=145, checkoutTime=100
+Customer 2106402115: shoppingCart=[SOURDOUGH, WONDER], shopTime=68, checkoutTime=66
+Customer 234639488: shoppingCart=[SOURDOUGH], shopTime=125, checkoutTime=101
+Customer 1947875151: shoppingCart=[RYE, WONDER, SOURDOUGH], shopTime=83, checkoutTime=66
+Customer 1203046381: shoppingCart=[SOURDOUGH], shopTime=58, checkoutTime=70
+Customer 541939139: shoppingCart=[SOURDOUGH, WONDER], shopTime=137, checkoutTime=66
+Customer 403895500: shoppingCart=[RYE, RYE, WONDER], shopTime=67, checkoutTime=57
+No WONDER bread left! Restocking...
+Customer 1187506013: shoppingCart=[WONDER, WONDER], shopTime=152, checkoutTime=61
+Customer 267522136: shoppingCart=[WONDER, WONDER], shopTime=92, checkoutTime=86
+Customer 198022526: shoppingCart=[WONDER, SOURDOUGH, RYE], shopTime=70, checkoutTime=68
+Customer 1123576669: shoppingCart=[RYE], shopTime=132, checkoutTime=107
+Customer 1703102984: shoppingCart=[SOURDOUGH, SOURDOUGH, RYE], shopTime=147, checkoutTime=92
+Customer 1322195555: shoppingCart=[WONDER, SOURDOUGH, SOURDOUGH], shopTime=152, checkoutTime=89
+No SOURDOUGH bread left! Restocking...
+Customer 175943174: shoppingCart=[RYE, SOURDOUGH], shopTime=69, checkoutTime=97
+Customer 133885286: shoppingCart=[WONDER, SOURDOUGH, WONDER], shopTime=58, checkoutTime=108
+Customer 2012925357: shoppingCart=[RYE, SOURDOUGH, SOURDOUGH], shopTime=67, checkoutTime=99
+Customer 1942308746: shoppingCart=[SOURDOUGH, WONDER], shopTime=164, checkoutTime=108
+Customer 919062422: shoppingCart=[SOURDOUGH, RYE, SOURDOUGH], shopTime=159, checkoutTime=90
+Customer 1320128644: shoppingCart=[SOURDOUGH, RYE], shopTime=73, checkoutTime=100
+Customer 1250954633: shoppingCart=[RYE], shopTime=60, checkoutTime=107
+Customer 261266111: shoppingCart=[SOURDOUGH, SOURDOUGH], shopTime=134, checkoutTime=61
+Customer 214858266: shoppingCart=[SOURDOUGH, SOURDOUGH], shopTime=153, checkoutTime=88
+Customer 1045950647: shoppingCart=[SOURDOUGH, WONDER, WONDER], shopTime=166, checkoutTime=86
+Customer 1960922801: shoppingCart=[SOURDOUGH], shopTime=109, checkoutTime=63
+Customer 1874683376: shoppingCart=[WONDER], shopTime=89, checkoutTime=72
+Customer 274521271: shoppingCart=[SOURDOUGH], shopTime=109, checkoutTime=68
+Customer 286217283: shoppingCart=[RYE], shopTime=95, checkoutTime=61
+Customer 779149954: shoppingCart=[SOURDOUGH, SOURDOUGH, SOURDOUGH], shopTime=99, checkoutTime=76
+Customer 375522253: shoppingCart=[RYE, RYE], shopTime=169, checkoutTime=107
+Customer 1253492120: shoppingCart=[WONDER, RYE], shopTime=168, checkoutTime=84
+Customer 724334931: shoppingCart=[WONDER], shopTime=87, checkoutTime=99
+Customer 646801224: shoppingCart=[SOURDOUGH], shopTime=87, checkoutTime=79
+No RYE bread left! Restocking...
+Customer 1748539268: shoppingCart=[RYE], shopTime=96, checkoutTime=103
+Customer 1763018756: shoppingCart=[WONDER, RYE], shopTime=55, checkoutTime=67
+Customer 1787180266: shoppingCart=[RYE, RYE], shopTime=73, checkoutTime=84
+Customer 95869153: shoppingCart=[RYE, RYE, RYE], shopTime=110, checkoutTime=108
+No SOURDOUGH bread left! Restocking...
+Customer 586627346: shoppingCart=[WONDER], shopTime=91, checkoutTime=74
+Customer 2083726628: shoppingCart=[SOURDOUGH, SOURDOUGH], shopTime=62, checkoutTime=99
+Customer 1944326989: shoppingCart=[RYE, RYE], shopTime=128, checkoutTime=63
+Customer 966333876: shoppingCart=[SOURDOUGH, SOURDOUGH], shopTime=88, checkoutTime=109
+No WONDER bread left! Restocking...
+Customer 402150415: shoppingCart=[WONDER, WONDER, SOURDOUGH], shopTime=88, checkoutTime=92
+Customer 1999907044: shoppingCart=[RYE, RYE], shopTime=155, checkoutTime=77
+Customer 879074059: shoppingCart=[WONDER, SOURDOUGH, WONDER], shopTime=130, checkoutTime=58
+Customer 295212160: shoppingCart=[SOURDOUGH, RYE, WONDER], shopTime=147, checkoutTime=94
+Customer 363270763: shoppingCart=[SOURDOUGH, RYE], shopTime=113, checkoutTime=92
+No RYE bread left! Restocking...
+Customer 1009432951: shoppingCart=[SOURDOUGH, RYE, WONDER], shopTime=124, checkoutTime=80
+Customer 1353031355: shoppingCart=[WONDER, WONDER, WONDER], shopTime=149, checkoutTime=68
+Customer 895161750: shoppingCart=[WONDER, RYE, RYE], shopTime=104, checkoutTime=62
+Customer 163829223: shoppingCart=[RYE], shopTime=122, checkoutTime=90
+Customer 1020029478: shoppingCart=[WONDER, WONDER, WONDER], shopTime=162, checkoutTime=62
+Customer 2016913312: shoppingCart=[RYE], shopTime=154, checkoutTime=101
+Customer 47234196: shoppingCart=[SOURDOUGH, RYE, RYE], shopTime=135, checkoutTime=76
+No WONDER bread left! Restocking...
+Customer 120889882: shoppingCart=[SOURDOUGH, RYE, SOURDOUGH], shopTime=73, checkoutTime=76
+Customer 51062308: shoppingCart=[SOURDOUGH, WONDER], shopTime=107, checkoutTime=63
+Customer 1175037985: shoppingCart=[RYE, SOURDOUGH, RYE], shopTime=139, checkoutTime=64
+Customer 1434702937: shoppingCart=[SOURDOUGH, SOURDOUGH, WONDER], shopTime=89, checkoutTime=80
+Customer 1996851329: shoppingCart=[WONDER, SOURDOUGH, RYE], shopTime=97, checkoutTime=57
+Customer 761637443: shoppingCart=[SOURDOUGH], shopTime=155, checkoutTime=59
+Customer 640046958: shoppingCart=[RYE], shopTime=97, checkoutTime=106
+Customer 1833729775: shoppingCart=[SOURDOUGH], shopTime=142, checkoutTime=64
+Customer 920035911: shoppingCart=[SOURDOUGH, RYE, RYE], shopTime=136, checkoutTime=86
+Customer 912335212: shoppingCart=[RYE, WONDER, RYE], shopTime=168, checkoutTime=74
+Customer 577277417: shoppingCart=[SOURDOUGH], shopTime=123, checkoutTime=96
+Customer 1824187768: shoppingCart=[WONDER], shopTime=113, checkoutTime=69
+Customer 1753578551: shoppingCart=[SOURDOUGH], shopTime=138, checkoutTime=92
+Customer 763883331: shoppingCart=[WONDER, WONDER], shopTime=150, checkoutTime=81
+Customer 667554459: shoppingCart=[SOURDOUGH, WONDER], shopTime=159, checkoutTime=83
+Customer 476095039: shoppingCart=[RYE], shopTime=133, checkoutTime=55
+Customer 1606877504: shoppingCart=[WONDER, WONDER], shopTime=113, checkoutTime=89
+Customer 744305741: shoppingCart=[WONDER, SOURDOUGH], shopTime=138, checkoutTime=61
+Customer 1881521428: shoppingCart=[RYE], shopTime=156, checkoutTime=69
+No SOURDOUGH bread left! Restocking...
+Customer 1317619734: shoppingCart=[WONDER], shopTime=150, checkoutTime=91
+Customer 1726046984: shoppingCart=[SOURDOUGH], shopTime=99, checkoutTime=68
+Customer 1658780428: shoppingCart=[RYE, RYE, SOURDOUGH], shopTime=143, checkoutTime=80
+Customer 668756275: shoppingCart=[WONDER], shopTime=149, checkoutTime=104
+Customer 2066065604: shoppingCart=[RYE, SOURDOUGH, RYE], shopTime=116, checkoutTime=74
+Customer 789838062: shoppingCart=[WONDER], shopTime=150, checkoutTime=85
+Customer 372338059: shoppingCart=[SOURDOUGH], shopTime=155, checkoutTime=98
+Customer 129716625: shoppingCart=[RYE], shopTime=157, checkoutTime=108
+Customer 1699385629: shoppingCart=[SOURDOUGH, RYE], shopTime=122, checkoutTime=60
+Customer 1146183397: shoppingCart=[WONDER, WONDER, RYE], shopTime=86, checkoutTime=84
+No RYE bread left! Restocking...
+Customer 1578872827: shoppingCart=[WONDER, SOURDOUGH, RYE], shopTime=111, checkoutTime=67
+Customer 52622042: shoppingCart=[SOURDOUGH, WONDER, WONDER], shopTime=139, checkoutTime=75
+Customer 772927243: shoppingCart=[RYE], shopTime=163, checkoutTime=59
+Customer 1779528552: shoppingCart=[WONDER], shopTime=87, checkoutTime=96
+No WONDER bread left! Restocking...
+Customer 2014101114: shoppingCart=[WONDER, RYE], shopTime=150, checkoutTime=91
+Customer 1024339743: shoppingCart=[RYE, RYE], shopTime=131, checkoutTime=67
+Customer 1034327647: shoppingCart=[RYE, WONDER, SOURDOUGH], shopTime=50, checkoutTime=95
+Customer 25775247: shoppingCart=[WONDER, RYE], shopTime=139, checkoutTime=69
+Customer 331858472: shoppingCart=[SOURDOUGH, WONDER], shopTime=111, checkoutTime=108
+Customer 1770447153: shoppingCart=[RYE], shopTime=143, checkoutTime=103
+Customer 650688916: shoppingCart=[WONDER, SOURDOUGH, RYE], shopTime=133, checkoutTime=107
+Customer 1674195753: shoppingCart=[RYE], shopTime=163, checkoutTime=102
+Customer 58208852: shoppingCart=[SOURDOUGH], shopTime=93, checkoutTime=73
+Customer 811211103: shoppingCart=[WONDER, SOURDOUGH], shopTime=67, checkoutTime=109
+Customer 1930146522: shoppingCart=[WONDER, SOURDOUGH, SOURDOUGH], shopTime=90, checkoutTime=57
+Customer 217707296: shoppingCart=[RYE, WONDER, SOURDOUGH], shopTime=64, checkoutTime=82
+Customer 1455775284: shoppingCart=[WONDER, RYE], shopTime=149, checkoutTime=85
+Customer 1150014170: shoppingCart=[RYE, RYE], shopTime=160, checkoutTime=71
+Customer 2024021903: shoppingCart=[SOURDOUGH, WONDER, WONDER], shopTime=141, checkoutTime=107
+Customer 2010876393: shoppingCart=[SOURDOUGH, SOURDOUGH], shopTime=108, checkoutTime=106
+No SOURDOUGH bread left! Restocking...
+Customer 116336662: shoppingCart=[WONDER, SOURDOUGH, SOURDOUGH], shopTime=169, checkoutTime=76
+Customer 1302859788: shoppingCart=[SOURDOUGH], shopTime=92, checkoutTime=81
+No RYE bread left! Restocking...
+Customer 981569000: shoppingCart=[WONDER, RYE, SOURDOUGH], shopTime=165, checkoutTime=58
+Customer 1639764576: shoppingCart=[SOURDOUGH], shopTime=100, checkoutTime=54
+Customer 611501330: shoppingCart=[SOURDOUGH, SOURDOUGH, RYE], shopTime=123, checkoutTime=73
+Customer 1612994618: shoppingCart=[WONDER], shopTime=157, checkoutTime=94
+Customer 1634754552: shoppingCart=[RYE, SOURDOUGH, SOURDOUGH], shopTime=59, checkoutTime=102
+Customer 790265627: shoppingCart=[SOURDOUGH, WONDER], shopTime=55, checkoutTime=105
+Customer 472736534: shoppingCart=[SOURDOUGH], shopTime=130, checkoutTime=109
+Customer 239283089: shoppingCart=[RYE, WONDER], shopTime=54, checkoutTime=101
+Customer 1294962976: shoppingCart=[WONDER, WONDER, SOURDOUGH], shopTime=130, checkoutTime=58
+Customer 616448051: shoppingCart=[RYE, SOURDOUGH, SOURDOUGH], shopTime=72, checkoutTime=68
+Customer 1761208594: shoppingCart=[SOURDOUGH, SOURDOUGH, SOURDOUGH], shopTime=97, checkoutTime=72
+Customer 602513885: shoppingCart=[SOURDOUGH, SOURDOUGH], shopTime=113, checkoutTime=75
+Customer 1840610849: shoppingCart=[RYE, WONDER], shopTime=139, checkoutTime=93
+Customer 1831262707: shoppingCart=[WONDER, SOURDOUGH, SOURDOUGH], shopTime=88, checkoutTime=102
+Customer 891764084: shoppingCart=[RYE, SOURDOUGH, RYE], shopTime=88, checkoutTime=96
+Customer 2107004879: shoppingCart=[RYE], shopTime=132, checkoutTime=85
+Customer 193712035: shoppingCart=[WONDER], shopTime=86, checkoutTime=62
+No SOURDOUGH bread left! Restocking...
+Customer 1757557176: shoppingCart=[WONDER, RYE], shopTime=134, checkoutTime=98
+Customer 308119001: shoppingCart=[RYE], shopTime=152, checkoutTime=74
+Customer 190526670: shoppingCart=[RYE, SOURDOUGH, SOURDOUGH], shopTime=55, checkoutTime=89
+Customer 258257277: shoppingCart=[RYE], shopTime=146, checkoutTime=87
+Customer 1248214773: shoppingCart=[SOURDOUGH], shopTime=103, checkoutTime=71
+Customer 692701446: shoppingCart=[WONDER], shopTime=51, checkoutTime=78
+Customer 1103756362: shoppingCart=[WONDER, SOURDOUGH], shopTime=84, checkoutTime=103
+Customer 917740756: shoppingCart=[SOURDOUGH, RYE, SOURDOUGH], shopTime=128, checkoutTime=98
+Customer 483480773: shoppingCart=[RYE, RYE, SOURDOUGH], shopTime=78, checkoutTime=87
+Customer 1812401755: shoppingCart=[WONDER, WONDER, SOURDOUGH], shopTime=55, checkoutTime=102
+Customer 848043738: shoppingCart=[RYE], shopTime=96, checkoutTime=87
+Customer 1173774507: shoppingCart=[RYE], shopTime=128, checkoutTime=106
+Customer 2070312357: shoppingCart=[SOURDOUGH, RYE], shopTime=81, checkoutTime=68
+No WONDER bread left! Restocking...
+Customer 1207146108: shoppingCart=[SOURDOUGH, SOURDOUGH, WONDER], shopTime=100, checkoutTime=90
+Customer 1857662306: shoppingCart=[RYE], shopTime=100, checkoutTime=87
+Customer 1458059481: shoppingCart=[WONDER, RYE, WONDER], shopTime=153, checkoutTime=52
+Customer 1831469566: shoppingCart=[RYE, SOURDOUGH], shopTime=90, checkoutTime=98
+Customer 418304903: shoppingCart=[WONDER, WONDER], shopTime=162, checkoutTime=89
+Customer 122140387: shoppingCart=[WONDER, RYE, SOURDOUGH], shopTime=157, checkoutTime=55
+No SOURDOUGH bread left! Restocking...
+Customer 1968738608: shoppingCart=[SOURDOUGH, SOURDOUGH], shopTime=65, checkoutTime=75
+Customer 1556260542: shoppingCart=[SOURDOUGH, RYE, RYE], shopTime=86, checkoutTime=101
+Customer 1147651054: shoppingCart=[SOURDOUGH], shopTime=75, checkoutTime=54
+Customer 1133153219: shoppingCart=[RYE, WONDER, SOURDOUGH], shopTime=122, checkoutTime=108
+Customer 109579734: shoppingCart=[WONDER], shopTime=140, checkoutTime=103
+Customer 605530844: shoppingCart=[SOURDOUGH, WONDER, SOURDOUGH], shopTime=89, checkoutTime=59
+Customer 1836104623: shoppingCart=[SOURDOUGH], shopTime=108, checkoutTime=84
