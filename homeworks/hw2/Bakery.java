@@ -15,13 +15,15 @@ public class Bakery implements Runnable {
     private float sales = 0;
 
     // TODO
-    private Semaphore[] shelf = new Semaphore[] {new Semaphore(1), new Semaphore(1), new Semaphore(1)}; // index 0: takeRye, index 1: takeSourDough, index 2: takeWonder 
-    private Semaphore saleProcess = new Semaphore(4);
-    private Semaphore evaluateCustomer = new Semaphore(1);
+    // public Semaphore[] shelf = new Semaphore[] {new Semaphore(1), new Semaphore(1), new Semaphore(1)}; // index 0: takeRye, index 1: takeSourDough, index 2: takeWonder 
+    public Map<BreadType, Semaphore> shelf;
+    public Semaphore saleProcess = new Semaphore(4);
+    public Semaphore registerProcess = new Semaphore(4);
 
-    public void setSales(float s){ 
-        this.sales = s;
-    }
+
+    // public void setSales(float s){ 
+    //     this.sales = s;
+    // }
     /**
      * Remove a loaf from the available breads and restock if necessary
      */
@@ -31,7 +33,6 @@ public class Bakery implements Runnable {
             availableBread.put(bread, breadLeft - 1);
         } else {
             System.out.println("No " + bread.toString() + " bread left! Restocking...");
-            System.out.println(breadLeft);
             // restock by preventing access to the bread stand for some time
             try {
                 Thread.sleep(1000);
@@ -65,40 +66,16 @@ public class Bakery implements Runnable {
         availableBread.put(BreadType.SOURDOUGH, FULL_BREAD);
         availableBread.put(BreadType.WONDER, FULL_BREAD);
 
+        shelf = new ConcurrentHashMap <BreadType, Semaphore>();
+        shelf.put(BreadType.RYE, new Semaphore(1));
+        shelf.put(BreadType.SOURDOUGH, new Semaphore(1));
+        shelf.put(BreadType.WONDER, new Semaphore(1));
 
-        ArrayList<Customer> customerList = new ArrayList<Customer>();
         executor = Executors.newFixedThreadPool(50);
         // TODO
-        for(int i = 0; i < 200; i++){
-            try{ 
-                evaluateCustomer.acquire();
-            } catch(InterruptedException ie){ 
-                System.out.println(ie);
-            }
-            Customer c = new Customer(this);
-            List<BreadType> cart = c.getShoppingCart();
-
-            for(BreadType b : cart){ 
-                int n = 0;
-                if(b == BreadType.RYE){ 
-                    n = 0;
-                } 
-                if(b == BreadType.SOURDOUGH){ 
-                    n = 1;
-                }
-                if(b == BreadType.WONDER){ 
-                    n = 2;
-                }
-                try{ 
-                    shelf[n].acquire();
-                } catch (InterruptedException ie){ 
-                    System.out.println(ie);
-                }
-                takeBread(b);
-                shelf[n].release();
-            }
+        for(int i = 0; i < TOTAL_CUSTOMERS; i++){
+        	Customer c = new Customer(this);
             executor.execute(c);
-            evaluateCustomer.release();
         }
        executor.shutdown();
     }

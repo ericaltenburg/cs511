@@ -29,7 +29,6 @@ public class Customer implements Runnable {
         this.shopTime = (int)(Math.random() * 120 + (50));
         this.checkoutTime = (int)(Math.random() * 60 + (50));
         this.bakery = bakery;
-        fillShoppingCart();
     }
 
     public List<BreadType> getShoppingCart(){ 
@@ -41,8 +40,36 @@ public class Customer implements Runnable {
      */
     public void run() {
         // TODO
-       this.bakery.addSales(getItemsValue());
-       System.out.println(this.toString());
+        try {
+			fillShoppingCart();
+			for (BreadType b : shoppingCart) {
+				// int n;
+	   //          if(b == BreadType.RYE){ 
+	   //              n = 0;
+	   //          } else if(b == BreadType.SOURDOUGH){ 
+	   //              n = 1;
+	   //          } else { 
+	   //              n = 2;
+	   //          }
+	            // bakery.shelf[n].acquire();
+	            bakery.shelf.get(b).acquire();
+	            bakery.takeBread(b);
+	            Thread.sleep(shopTime);
+	            // bakery.shelf[n].release();
+	            bakery.shelf.get(b).release();
+			}
+
+            bakery.saleProcess.acquire();
+            bakery.registerProcess.acquire();
+            bakery.addSales(this.getItemsValue());
+            Thread.sleep(checkoutTime);
+            bakery.saleProcess.release();
+            bakery.registerProcess.release();
+
+            System.out.println(this.toString());
+        } catch (InterruptedException ie) {
+        	System.out.println(ie);
+        }
     }
 
     /**
