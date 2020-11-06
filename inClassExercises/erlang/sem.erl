@@ -10,9 +10,18 @@ start(Permits) ->
 	ok.
 
 semaphore(0) ->
-	todo;
+	receive
+		{_From, release} ->
+			semaphore(1);
+	end;
 semaphore(N) when N>0 ->
-	todo.
+	receive
+		{_From, release} ->
+			semaphore(N+1);
+		{_From, acquire} ->
+			From!{self(), ok},
+			semaphore(N-1)
+	end;
 
 acquire(S) ->
 	S ! {self(), acquire}, 

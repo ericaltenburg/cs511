@@ -3,32 +3,83 @@
 -include_lib("./shipping.hrl").
 
 get_ship(Shipping_State, Ship_ID) ->
-    io:format("Implement me!!"),
-    error.
+	S = lists:keyfind(Ship_ID, #ship.id, Shipping_State#shipping_state.ships),
+    case S of
+		false ->
+			error;
+		_ ->
+			S
+	end.
 
 get_container(Shipping_State, Container_ID) ->
-    io:format("Implement me!!"),
-    error.
+	C = lists:keyfind(Container_ID, #container.id, Shipping_State#shipping_state.containers),
+	case C of
+		false ->
+			error;
+		_ ->
+			C
+	end.
 
 get_port(Shipping_State, Port_ID) ->
-    io:format("Implement me!!"),
-    error.
+    L = lists:keyfind(Port_ID, #port.id, Shipping_State#shipping_state.ports),
+    case L of
+    	false ->
+    		error;
+		_ ->
+			L		
+	end.
 
 get_occupied_docks(Shipping_State, Port_ID) ->
-    io:format("Implement me!!"),
-    error.
+    lists:filtermap(
+    	fun(Param) ->
+    		case Param of
+    			{Port_ID, Dock_id, _Shipping_id} ->
+    				{true, Dock_id};
+    			_ ->
+    				false
+			end
+		end,
+		Shipping_State#shipping_state.ship_locations).
 
 get_ship_location(Shipping_State, Ship_ID) ->
-    io:format("Implement me!!"),
-    error.
+    L = lists:keyfind(
+    	Ship_ID,
+    	3,
+    	Shipping_State#shipping_state.ship_locations),
+    case L of
+    	{Port_id, Dock_id, _Ship_id} ->
+    		{Port_id, Dock_id};
+		false ->
+			error
+	end.
 
 get_container_weight(Shipping_State, Container_IDs) ->
-    io:format("Implement me!!"),
-    error.
+    L = lists:map(
+    	fun(Container_id) ->
+    		Container = shipping:get_container(Shipping_State, Container_id),
+    		case Container of 
+    			error ->
+    				error;
+				_ ->
+					Container#container.weight
+			end
+		end,
+		Container_IDs),
+    case lists:member(error, L) of
+    	true ->
+    		error;
+		false ->
+			lists:sum(L)
+	end.
 
 get_ship_weight(Shipping_State, Ship_ID) ->
-    io:format("Implement me!!"),
-    error.
+	M = maps:find(Ship_ID, Shipping_State#shipping_state.ship_inventory),
+	case M of
+		{ok, Value} ->
+			get_container_weight(Shipping_State, Value);
+		_ ->
+			error
+	end.
 
 load_ship(Shipping_State, Ship_ID, Container_IDs) ->
     io:format("Implement me!!"),
