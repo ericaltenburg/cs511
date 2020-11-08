@@ -2,6 +2,9 @@
 -compile(export_all).
 -include_lib("./shipping.hrl").
 
+% Authors: Eric Altenburg and Sarvani Patel
+% Pledge: I pledge my honor that I have abided by the Stevens Honor System
+
 get_ship(Shipping_State, Ship_ID) ->
 	S = lists:keyfind(Ship_ID, #ship.id, Shipping_State#shipping_state.ships),
     case S of
