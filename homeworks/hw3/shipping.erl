@@ -82,20 +82,137 @@ get_ship_weight(Shipping_State, Ship_ID) ->
 	end.
 
 load_ship(Shipping_State, Ship_ID, Container_IDs) ->
-    io:format("Implement me!!"),
-    error.
+    case get_ship_location(Shipping_State, Ship_ID) of
+    	error ->
+    		error;
+    	{Port_id, _} ->
+    		case maps:find(Ship_ID, Shipping_State#shipping_state.ship_inventory) of
+    			{ok, Value} ->
+    				Current_ship_inventory = length(Value) + length(Container_IDs),
+    				Ship = shipping:get_ship(Shipping_State, Ship_ID),
+    				case Ship of
+    					error ->
+    						error;
+						_ ->
+							Capacity = Ship#ship.container_cap,
+							Containers_in_port = lists:all(
+								fun(X) ->
+									lists:member(
+										X, 
+										maps:get(Port_id, Shipping_State#shipping_state.port_inventory))
+								end,
+								Container_IDs),
+							case {Containers_in_port, Capacity >= Current_ship_inventory} of
+								{true, true} ->
+									#shipping_state{
+										ships = Shipping_State#shipping_state.ships,
+										containers = Shipping_State#shipping_state.containers,
+										ports = Shipping_State#shipping_state.ports,
+										ship_locations = Shipping_State#shipping_state.ship_locations,
+										ship_inventory = maps:put(Ship_ID, 
+											lists:merge(
+												maps:get(Ship_ID, Shipping_State#shipping_state.ship_inventory), 
+												Container_IDs), 
+											Shipping_State#shipping_state.ship_inventory),
+										port_inventory = maps:put(Port_id, 
+											lists:filter(
+												fun(X) ->
+													not lists:member(X, Container_IDs)
+												end,
+												maps:get(Port_id, Shipping_State#shipping_state.port_inventory)),
+											maps:remove(Port_id, Shipping_State#shipping_state.port_inventory))};
+								_ ->
+									error
+							end
+					end;
+				_ ->
+					error
+			end
+	end.
+
 
 unload_ship_all(Shipping_State, Ship_ID) ->
-    io:format("Implement me!!"),
-    error.
+	Ship = maps:find(Ship_ID, Shipping_State#shipping_state.ship_inventory),
+	case Ship of
+		{ok, Value} ->
+			shipping:unload_ship(Shipping_State, Ship_ID, Value);
+		_ ->
+			error
+	end.
 
 unload_ship(Shipping_State, Ship_ID, Container_IDs) ->
-    io:format("Implement me!!"),
-    error.
+	case get_ship_location(Shipping_State, Ship_ID) of
+    	error ->
+    		error;
+    	{Port_id, _} ->
+    		case maps:find(Port_id, Shipping_State#shipping_state.port_inventory) of
+    			{ok, Value} ->
+    				Containers_to_be_in_port = length(Value) + length(Container_IDs),
+    				Port_container_cap = (shipping:get_port(Shipping_State, Port_id))#port.container_cap,
+    				Are_containers_on_ship = lists:all(
+    					fun(X) ->
+    						lists:member(X, maps:get(Ship_ID, Shipping_State#shipping_state.ship_inventory))
+						end,
+						Container_IDs),
+    				case {Are_containers_on_ship, Port_container_cap >= Containers_to_be_in_port} of
+    					{true, true} ->
+    						#shipping_state{
+	       						ships = Shipping_State#shipping_state.ships,
+       							containers = Shipping_State#shipping_state.containers,
+       							ports = Shipping_State#shipping_state.ports,
+	       						ship_locations = Shipping_State#shipping_state.ship_locations,
+	      					 	ship_inventory =  maps:put(Ship_ID,lists:filter(
+		      					 		fun(X) -> 
+		      					 			not lists:member(X, Container_IDs) 
+		      					 		end, 
+		      					 		maps:get(Ship_ID, Shipping_State#shipping_state.ship_inventory)), 
+		      					 	maps:remove(Ship_ID, Shipping_State#shipping_state.ship_inventory)),
+       							port_inventory = maps:put(Port_id,
+       								lists:merge(
+	       								maps:get(Port_id, Shipping_State#shipping_state.port_inventory),
+	       								Container_IDs), 
+       								Shipping_State#shipping_state.port_inventory)
+   							};
+						{false, true} ->
+							io:format("The given containers are not all on the same ship...~n"),
+							error;
+						_ -> 
+							error
+					end;
+				_ ->
+					error
+			end
+	end.
 
 set_sail(Shipping_State, Ship_ID, {Port_ID, Dock}) ->
-    io:format("Implement me!!"),
-    error.
+    Is_empty = lists:all(
+    	fun(X) ->
+    		case X of
+    			{Port_ID, Dock, _} ->
+    				false;
+				_ ->
+					true
+			end
+		end,
+		Shipping_State#shipping_state.ship_locations),
+    case Is_empty of
+    	false ->
+    		error;
+		true ->
+			#shipping_state{
+				ships = Shipping_State#shipping_state.ships,
+				containers = Shipping_State#shipping_state.containers,
+				ports = Shipping_State#shipping_state.ports,
+				ship_locations = lists:merge(
+					lists:keydelete(
+						Ship_ID,
+						3,
+						Shipping_State#shipping_state.ship_locations),
+					[{Port_ID, Dock, Ship_ID}]),
+				ship_inventory = Shipping_State#shipping_state.ship_inventory,
+				port_inventory = Shipping_State#shipping_state.port_inventory
+			}
+	end.
 
 
 
