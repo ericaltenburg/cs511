@@ -107,7 +107,7 @@ load_ship(Shipping_State, Ship_ID, Container_IDs) ->
 								Container_IDs),
 							case {Containers_in_port, Capacity >= Current_ship_inventory} of
 								{true, true} ->
-									#shipping_state{
+									{ok, #shipping_state{
 										ships = Shipping_State#shipping_state.ships,
 										containers = Shipping_State#shipping_state.containers,
 										ports = Shipping_State#shipping_state.ports,
@@ -123,7 +123,7 @@ load_ship(Shipping_State, Ship_ID, Container_IDs) ->
 													not lists:member(X, Container_IDs)
 												end,
 												maps:get(Port_id, Shipping_State#shipping_state.port_inventory)),
-											maps:remove(Port_id, Shipping_State#shipping_state.port_inventory))};
+											maps:remove(Port_id, Shipping_State#shipping_state.port_inventory))}};
 								_ ->
 									error
 							end
@@ -159,7 +159,7 @@ unload_ship(Shipping_State, Ship_ID, Container_IDs) ->
 						Container_IDs),
     				case {Are_containers_on_ship, Port_container_cap >= Containers_to_be_in_port} of
     					{true, true} ->
-    						#shipping_state{
+    						{ok, #shipping_state{
 	       						ships = Shipping_State#shipping_state.ships,
        							containers = Shipping_State#shipping_state.containers,
        							ports = Shipping_State#shipping_state.ports,
@@ -175,7 +175,7 @@ unload_ship(Shipping_State, Ship_ID, Container_IDs) ->
 	       								maps:get(Port_id, Shipping_State#shipping_state.port_inventory),
 	       								Container_IDs), 
        								Shipping_State#shipping_state.port_inventory)
-   							};
+   							}};
 						{false, true} ->
 							io:format("The given containers are not all on the same ship...~n"),
 							error;
@@ -202,7 +202,7 @@ set_sail(Shipping_State, Ship_ID, {Port_ID, Dock}) ->
     	false ->
     		error;
 		true ->
-			#shipping_state{
+			{ok, #shipping_state{
 				ships = Shipping_State#shipping_state.ships,
 				containers = Shipping_State#shipping_state.containers,
 				ports = Shipping_State#shipping_state.ports,
@@ -214,7 +214,7 @@ set_sail(Shipping_State, Ship_ID, {Port_ID, Dock}) ->
 					[{Port_ID, Dock, Ship_ID}]),
 				ship_inventory = Shipping_State#shipping_state.ship_inventory,
 				port_inventory = Shipping_State#shipping_state.port_inventory
-			}
+			}}
 	end.
 
 
