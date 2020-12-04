@@ -1,0 +1,27 @@
+1 Q:1   1)  last = 2       
+Process Statement          last       
+1 Q:1   1)  wantQ = 1      2          
+Process Statement          last       wantQ      
+1 Q:1   1)  !(wantP)||(las 2          1          
+1 Q:1   1)  cs = (cs+1)    2          1          
+Process Statement          cs         last       wantQ      
+1 Q:1   1)  assert((cs==1) 1          2          1          
+1 Q:1   1)  cs = (cs-1)    1          2          1          
+1 Q:1   1)  wantQ = 0      0          2          1          
+0 P:1   1)  last = 1       0          2          0          
+1 Q:1   1)  last = 2       0          1          0          
+1 Q:1   1)  wantQ = 1      0          2          0          
+1 Q:1   1)  !(wantP)||(las 0          2          1          
+1 Q:1   1)  cs = (cs+1)    0          2          1          
+1 Q:1   1)  assert((cs==1) 1          2          1          
+0 P:1   1)  wantP = 1      1          2          1          
+Process Statement          cs         last       wantP      wantQ      
+0 P:1   1)  !(wantQ)||(las 1          2          1          1          
+0 P:1   1)  cs = (cs+1)    1          2          1          1          
+spin: pet3.pml:12, Error: assertion violated
+spin: text of failed assertion: assert((cs==1))
+#processes: 2
+ 17:	proc  1 (Q:1) pet3.pml:25 (state 6)
+ 17:	proc  0 (P:1) pet3.pml:12 (state 5)
+2 processes created
+Exit-Status 0
